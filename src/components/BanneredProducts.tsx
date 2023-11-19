@@ -8,7 +8,7 @@ const BanneredProducts = () => {
                 <div className="grid grid-cols-12 gap-1">
                     {
                         Array.from({ length: 3 }, (_, i) => i + 1).map((i) => (
-                            <div key={i} className='grid grid-cols-6 sm:col-span-6  bg-gradient-to-tr from-secondary/50 to-slate-950 lg:col-span-4 p-3 col-span-12'>
+                            <div key={i} className='grid grid-cols-6 sm:col-span-6  bg-gradient-to-tr from-secondary to-slate-200 dark:to-slate-950 lg:col-span-4 p-3 col-span-12'>
                                 <div className='flex flex-col gap-2 justify-center col-span-3'>
                                     <h2 className='text-xl font-bold'>EZ-77 PC WORLDWIDE</h2>
                                     <div>

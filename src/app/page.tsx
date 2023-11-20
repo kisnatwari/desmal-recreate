@@ -1,5 +1,5 @@
 import Hero from '@/components/Hero'
-import MicroAdvertisement from '@/components/MicroAdvertisement'
+import BanneredProducts from '@/components/BanneredProducts'
 import TopRated from '@/components/TopRated'
 import Image from 'next/image'
 
@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Hero />
       <TopRated />
-      <MicroAdvertisement />
+      <BanneredProducts />
     </main>
   )
 }

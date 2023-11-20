@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("//use.fontawesome.com/releases/v5.7.2/css/all.css");
  
 @layer base {
   :root {
@@ -73,4 +75,20 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.swiper-button-next, .swiper-button-prev {
+  background-image: url('right-circle.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev{
+  background-image: url('left-circle.svg');
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  content: '' !important;
 }

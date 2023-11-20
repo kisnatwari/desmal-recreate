@@ -14,7 +14,7 @@ const TopRated = () => {
     return (
         <div>
             <div className='container py-4'>
-                <h2 className='text-xl text-center'>Top Rated Products</h2>
+                <h2 className='text-xl mb-3 text-center'>Top Rated Products</h2>
                 {/* <div className='grid grid-cols-7 gap-0'>
                     {
                         Array.from({ length: 10 }, (_, i) => i + 1).map((i) => {
@@ -65,7 +65,7 @@ const TopRated = () => {
                         Array.from({ length: 10 }, (_, i) => i + 1).map((i) => {
                             return (
                                 <SwiperSlide key={i}>
-                                    <div className='w-full h-72 p-2 flex flex-col bg-slate-50 dark:bg-black/20 border'>
+                                    <div className='w-full h-72 p-2 flex flex-col bg-gradient-to-b from-white to-secondary dark:from-secondary/10 dark:to-secondary/60 border'>
                                         <div className='flex justify-between items-center'>
                                             <span className='text-[10px] text-secondary-foreground/75'>CATEGORY 1</span>
                                             <Heart className='w-4' />

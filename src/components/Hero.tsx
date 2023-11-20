@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className='relative -mt-[200px]'>
             <Image src={'/geo-bg.jpg'} alt='adsf' width={1000} height={1000} className='absolute w-full h-full top-0 -z-0' />
-            <div className='bg-gradient-to-b from-secondary to-secondary/75  backdrop-filter backdrop-blur-xl h-full pt-[200px]'>
+            <div className='bg-gradient-to-b from-secondary via-white/80 dark:via-secondary/75  to-white dark:to-slate-950 backdrop-filter backdrop-blur-xl h-full pt-[200px]'>
                 <div className='container h-[570px] overflow-hidden grid grid-cols-7 gap-5'>
                     <div className='col-span-3 flex flex-col justify-center items-start gap-5'>
                         <h1 className="text-7xl font-extrabold text-primary/95">

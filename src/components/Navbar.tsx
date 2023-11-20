@@ -53,7 +53,7 @@ const NavList = () => {
 
 const Navbar = () => {
     return (
-        <header className='container mx-auto py-1 relative z-10'>
+        <header className='container mx-auto py-1 relative z-10 overflow-hidden'>
             <div className='flex justify-between items-center py-1 text-primary/70'>
                 <span className='flex items-center gap-2 text-xs'>
                     <Store className='w-4' />
